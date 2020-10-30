@@ -69,6 +69,8 @@ public class Main implements Runnable, ActionListener{
 
     //create the text display
     numberDisplay = new JTextField("0");
+    //set the size of the number display
+    numberDisplay.setPreferredSize(new Dimension(800,100));
 
     //add the text display to the panels
     topPanel.add(numberDisplay);
